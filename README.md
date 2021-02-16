@@ -23,7 +23,7 @@ This is a simple definition: It would be an interval level of measurement.
 
 `data[["Age"]] = imp.transform(data[["Age"]]).ravel()`
 
-`Answer = 21.0"`
+Answer = 21.0"
 
 ### **Question 3: In Bayesian inference the "likelihood" represents**
 How probable is the data (evidence) given that our hypothesis is true.
@@ -35,13 +35,13 @@ True
 P(Have the disease|Symptoms) = (P(Symptoms|Have the disease) * P(Have the disease))/P(Symptoms) 
 **= (.7*.15)/.35 = .3**
 
-### ** Question 6:	A Monte Carlo simulation should never include more than 1000 repetitions of the experiment.**
+### **Question 6:	A Monte Carlo simulation should never include more than 1000 repetitions of the experiment.**
 False
 
-### ** Question 7: One can decide that the number of iterations in a Monte Carlo simulation was sufficient by visualizing a Probability-Iteration plot and determining where the probability graph approaches a horizontal line.
+### **Question 7: One can decide that the number of iterations in a Monte Carlo simulation was sufficient by visualizing a Probability-Iteration plot and determining where the probability graph approaches a horizontal line.
 True
 
-### ** Question 8:Assume we play a slightly bit different version of the original Monte Hall problem such as having four doors one car and three goats. The rules of the game are the same, the contestant chooses one door (that remains closed) and one of the other doors who had a goat behind it is being opened. The contestant has to make a choice as to stick with the original choice or rather switch for one of the remaining closed doors. Write a Python code to approximate the winning probabilities, for each choice, by the means of Monte Carlo simulations. The probability that the contestant will ultimately win by sticking with the original choice is closer to:**
+### **Question 8: Assume we play a slightly bit different version of the original Monte Hall problem such as having four doors one car and three goats. The rules of the game are the same, the contestant chooses one door (that remains closed) and one of the other doors who had a goat behind it is being opened. The contestant has to make a choice as to stick with the original choice or rather switch for one of the remaining closed doors. Write a Python code to approximate the winning probabilities, for each choice, by the means of Monte Carlo simulations. The probability that the contestant will ultimately win by sticking with the original choice is closer to:**
 
 `%matplotlib inline`
 
